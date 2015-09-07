@@ -5043,3 +5043,2201 @@ Stack trace:
 REQUEST_URI=/mvc_proyecto/images/team2.jpg
 HTTP_REFERER=http://localhost/mvc_proyecto/
 ---
+2015/09/07 04:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:22 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "productos" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Producto))
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(11): CActiveRecord->findAll()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/mvc_proyecto/productos/index.html
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:00 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "productos" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Producto))
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(11): CActiveRecord->findAll()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/mvc_proyecto/productos/index.html
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 04:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:02:55 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "productos" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Producto))
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(11): CActiveRecord->findAll()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/mvc_proyecto/productos/index.html
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:15:50 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "productos" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Producto))
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(11): CActiveRecord->findAll()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/mvc_proyecto/productos/index.html
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 05:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:06:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La vista solicitada "gii" no fue encontrada.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('gii')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/mvc_proyecto/site/page.html?view=gii
+---
+2015/09/07 06:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:08:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 06:13:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proyectomvc.new' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `new`.
+in C:\wamp\www\mvc_proyecto\index.php (13)
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item4.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item5.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/portfolio/thumb/item6.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/portfoli...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team1.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team1.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team2.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team2.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/team3.jpg"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/team3.jp...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item4.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item6.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/por...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/portfolio/thumb/item5.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team1.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team2.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
+2015/09/07 07:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/tea...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mvc_proyecto/site/images/team3.jpg
+HTTP_REFERER=http://localhost/mvc_proyecto/site/index.html
+---
