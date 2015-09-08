@@ -1,90 +1,127 @@
-/*
-SQLyog Ultimate v11.28 (64 bit)
-MySQL - 5.6.17 : Database - proyectomvc
-*********************************************************************
-*/
+-- phpMyAdmin SQL Dump
+-- version 4.1.14
+-- http://www.phpmyadmin.net
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 08-09-2015 a las 09:32:58
+-- Versión del servidor: 5.6.17
+-- Versión de PHP: 5.5.12
 
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
 
-/*!40101 SET SQL_MODE=''*/;
+--
+-- Base de datos: `proyectomvc`
+--
 
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`proyectomvc` /*!40100 DEFAULT CHARACTER SET utf8 */;
+-- --------------------------------------------------------
 
-USE `proyectomvc`;
+--
+-- Estructura de tabla para la tabla `cliente`
+--
 
-/*Table structure for table `cliente` */
-
-DROP TABLE IF EXISTS `cliente`;
-
-CREATE TABLE `cliente` (
+CREATE TABLE IF NOT EXISTS `cliente` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(50) NOT NULL,
   `apellido` varchar(50) DEFAULT NULL,
   `razonsocial` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
-/*Data for the table `cliente` */
+--
+-- Volcado de datos para la tabla `cliente`
+--
 
-insert  into `cliente`(`id`,`nombre`,`apellido`,`razonsocial`) values (1,'Daniel','Méndez Cruz','21832ijsdlkjdkls'),(2,'Manuel','Cruz Gutiérrez','21232jdlkfdjs'),(3,'María del Carmen','Cruz Torres','CRTMC12403');
+INSERT INTO `cliente` (`id`, `nombre`, `apellido`, `razonsocial`) VALUES
+(2, 'Jeff ', 'Bezos', 'Amazon, Inc'),
+(3, 'Larry', 'Page', 'Google'),
+(4, 'Marc ', 'Randolph', 'Netflix, Inc'),
+(5, 'Michael ', 'Dell', 'Dell, Inc.'),
+(6, 'David ', 'Packard', 'Hewlett-Packard'),
+(7, 'Bill ', 'Gates', 'Microsoft Corporation');
 
-/*Table structure for table `cliente_compra` */
+-- --------------------------------------------------------
 
-DROP TABLE IF EXISTS `cliente_compra`;
+--
+-- Estructura de tabla para la tabla `cliente_compra`
+--
 
-CREATE TABLE `cliente_compra` (
+CREATE TABLE IF NOT EXISTS `cliente_compra` (
   `compra_idventa` int(11) NOT NULL,
   `productos_idproductos` int(11) NOT NULL,
   `cantidad` int(11) DEFAULT NULL,
   `subtotal` decimal(5,2) DEFAULT NULL,
   PRIMARY KEY (`compra_idventa`,`productos_idproductos`),
   KEY `fk_compra_has_productos_productos1_idx` (`productos_idproductos`),
-  KEY `fk_compra_has_productos_compra1_idx` (`compra_idventa`),
-  CONSTRAINT `fk_compra_has_productos_compra1` FOREIGN KEY (`compra_idventa`) REFERENCES `compra` (`idventa`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_compra_has_productos_productos1` FOREIGN KEY (`productos_idproductos`) REFERENCES `productos` (`idproductos`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  KEY `fk_compra_has_productos_compra1_idx` (`compra_idventa`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
-/*Data for the table `cliente_compra` */
+-- --------------------------------------------------------
 
-/*Table structure for table `compra` */
+--
+-- Estructura de tabla para la tabla `compra`
+--
 
-DROP TABLE IF EXISTS `compra`;
-
-CREATE TABLE `compra` (
+CREATE TABLE IF NOT EXISTS `compra` (
   `idventa` int(11) NOT NULL,
   `total` decimal(5,2) DEFAULT NULL,
   `fecha` datetime DEFAULT NULL,
   `cliente_id` int(10) NOT NULL,
   PRIMARY KEY (`idventa`),
-  KEY `fk_compra_cliente1_idx` (`cliente_id`),
-  CONSTRAINT `fk_compra_cliente1` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  KEY `fk_compra_cliente1_idx` (`cliente_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
-/*Data for the table `compra` */
+-- --------------------------------------------------------
 
-/*Table structure for table `productos` */
+--
+-- Estructura de tabla para la tabla `productos`
+--
 
-DROP TABLE IF EXISTS `productos`;
-
-CREATE TABLE `productos` (
+CREATE TABLE IF NOT EXISTS `productos` (
   `idproductos` int(11) NOT NULL AUTO_INCREMENT,
   `nombreproducto` varchar(50) NOT NULL,
-  `precio` decimal(5,2) DEFAULT NULL,
+  `precio` decimal(10,2) DEFAULT NULL,
   `existencia` int(11) NOT NULL,
   `codigo` varchar(45) DEFAULT NULL,
   `descripcion` text,
   PRIMARY KEY (`idproductos`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
 
-/*Data for the table `productos` */
+--
+-- Volcado de datos para la tabla `productos`
+--
 
-insert  into `productos`(`idproductos`,`nombreproducto`,`precio`,`existencia`,`codigo`,`descripcion`) values (1,'producto1','52.10',10,'H1N10','esto describe el producto 1'),(2,'producto2','10.20',40,'H1N11','descripción del producto 2'),(3,'producto3','40.20',70,'H1N12','descripción del producto 3'),(4,'producto4','20.20',50,'H1N13','descripción del producto 4'),(5,'nuevo producto','23.50',123,'HEROD20129',NULL),(6,'producto4','234.00',23,'REAL12039',NULL),(9,'producto10','23.50',120,'AHE1920','esto es otra descripción de prueba espero que funcione al 100%');
+INSERT INTO `productos` (`idproductos`, `nombreproducto`, `precio`, `existencia`, `codigo`, `descripcion`) VALUES
+(1, 'iPhone 4S', '5800.99', 10, '101122', 'El Apple iPhone 4S es una mejora del iPhone 4 que, manteniendo el diseño original, actualiza su hardware. Posee la misma pantalla de 3.5 pulgadas a 640 x 960 pixels de resolución, pero por dentro posee un procesador dual-core A5 que provee el doble de velocidad.Además sube su velocidad de conectividad hasta 14.4Mbps HSPA, incorpora una cámara de 8 megapixels con captura de video 1080p y corre el renovado iOS 5.'),
+(2, 'iPad mini 3', '3450.22', 4, '101244', 'El Apple iPad mini 3 es una pequeña actualización al iPad mini Retina, que incorpora Touch ID, el sensor de huellas dactilares de Apple. Más allá de ese agregado, el iPad mini 3 es prácticamente igual a su antecesor, conservando todas sus características'),
+(3, 'iPhone 5S', '6750.99', 10, '101244', 'El Apple iPhone 5S sucede al iPhone 5 conservando el aspecto exterior, pero introduciendo un nuevo chip A7 de 64 bits que mejora la performance en más del doble según Apple. Conserva la pantalla Retina de 4 pulgadas, pero agrega también un chip dedicado a movimientos, para una nueva generación de aplicaciones.'),
+(4, 'iPhone 6', '11987.99', 20, '102344', 'El Apple iPhone 6 sube la apuesta de Apple con una pantalla de mayor tamaño de 4.7 pulgadas protegida por un cristal ultra resistente, nuevo procesador A8, 16GB, 64GB o 128GB de almacenamiento interno, cámara trasera de 8 megapixels con flash, cámara frontal de 1.2MP, conectividad 4G LTE y iOS 8.'),
+(5, 'Mac pro 13"', '19560.00', 10, '234566', 'Pantalla Retina: pantalla retroiluminada por LED de 13.3 pulgadas (diagonal) con tecnología IPS; resolución de 2560 x 1600 a 227 pixeles por pulgada, con soporte para millones de colores'),
+(6, 'Mac pro 15"', '26999.99', 12, '223344', 'Pantalla Retina: pantalla retroiluminada por LED de 15.4 pulgadas (diagonal) con tecnología IPS; resolución de 2880 x 1800 a 220 pixeles por pulgada, con soporte para millones de colores');
 
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `cliente_compra`
+--
+ALTER TABLE `cliente_compra`
+  ADD CONSTRAINT `fk_compra_has_productos_compra1` FOREIGN KEY (`compra_idventa`) REFERENCES `compra` (`idventa`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_compra_has_productos_productos1` FOREIGN KEY (`productos_idproductos`) REFERENCES `productos` (`idproductos`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `compra`
+--
+ALTER TABLE `compra`
+  ADD CONSTRAINT `fk_compra_cliente1` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

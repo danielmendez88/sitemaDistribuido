@@ -159,7 +159,7 @@
                     'items'=>array(
                         array('label'=>'Inicio', 'url'=>array('/site/index')),
                         array('label'=>'Clientes', 'url'=>array('/clientes/index')),
-                        array('label'=>'Prodcutos', 'url'=>array('/productos/index')),
+                        array('label'=>'Productos', 'url'=>array('/productos/index')),
                         array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                         array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
                     ),

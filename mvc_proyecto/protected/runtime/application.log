@@ -9044,3 +9044,206 @@ Stack trace:
 REQUEST_URI=/mvc_proyecto/clientes/delete/1.html
 HTTP_REFERER=http://localhost/mvc_proyecto/clientes/admin.html
 ---
+2015/09/08 08:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "producto/create"' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('producto/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mvc_proyecto/producto/create.html
+---
+2015/09/08 08:24:50 [error] [exception.CException] exception 'CException' with message 'La propiedad "Productos"."idproductos" no se encuentra definida.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idproductos')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('idproductos')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Productos), 'idproductos')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Productos), 'idproductos', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Productos), 'idproductos', Array)
+#5 C:\wamp\www\mvc_proyecto\protected\views\productos\_search.php(16): CActiveForm->textField(Object(Productos), 'idproductos', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\mvc...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\mvc...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\mvc...', Array, true)
+#9 C:\wamp\www\mvc_proyecto\protected\views\productos\admin.php(36): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\mvc...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\mvc...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\mvc...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(145): CController->render('admin', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionAdmin()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/admin')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mvc_proyecto/productos/admin.html
+HTTP_REFERER=http://localhost/mvc_proyecto/productos/index.html
+---
+2015/09/08 08:28:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/delete')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/clientes/delete/1.html
+HTTP_REFERER=http://localhost/mvc_proyecto/clientes/admin.html
+---
+2015/09/08 08:29:27 [error] [exception.CException] exception 'CException' with message 'La propiedad "Productos"."idproductos" no se encuentra definida.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idproductos')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('idproductos')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Productos), 'idproductos')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Productos), 'idproductos', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Productos), 'idproductos', Array)
+#5 C:\wamp\www\mvc_proyecto\protected\views\productos\_search.php(16): CActiveForm->textField(Object(Productos), 'idproductos', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\mvc...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\mvc...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\mvc...', Array, true)
+#9 C:\wamp\www\mvc_proyecto\protected\views\productos\admin.php(36): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\mvc...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\mvc...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\mvc...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(145): CController->render('admin', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionAdmin()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/admin')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mvc_proyecto/productos/admin.html
+HTTP_REFERER=http://localhost/mvc_proyecto/productos/index.html
+---
+2015/09/08 08:32:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/productos/delete/1.html
+HTTP_REFERER=http://localhost/mvc_proyecto/productos/admin.html
+---
+2015/09/08 08:33:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/productos/delete/1.html
+---
+2015/09/08 08:44:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/productos/delete/1.html
+---
+2015/09/08 08:44:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/delet...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/productos/delete/1.html
+HTTP_REFERER=http://localhost/mvc_proyecto/productos/admin.html
+---
+2015/09/08 08:46:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/delete')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/mvc_proyecto/clientes/delete/1.html
+HTTP_REFERER=http://localhost/mvc_proyecto/clientes/admin.html
+---
+2015/09/08 09:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php:159
+Stack trace:
+#0 C:\wamp\www\mvc_proyecto\protected\controllers\ProductosController.php(91): ProductosController->loadModel('12')
+#1 [internal function]: ProductosController->actionUpdate('12')
+#2 C:\wamp\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductosController), Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductosController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/updat...')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\wamp\www\mvc_proyecto\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/mvc_proyecto/productos/update/12.html
+---
