@@ -1,17 +1,12 @@
 <?php /* @var $this Controller */ ?>
 <?php $this->beginContent('//layouts/main'); ?>
-<section id="services">
-	<div class="container">
-		<div class="box first">
-			
-			<div class="row">
-				<div class="col-lg-8">
-					<?php echo $content; ?>
-				</div>
+<div id="page-wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<?php echo $content; ?>
 			</div>
-		
 		</div>
-		
-	</div><!-- content -->	
-</section>
+	</div>
+</div><!-- content -->
 <?php $this->endContent(); ?>
