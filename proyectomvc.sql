@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-09-2015 a las 09:32:58
+-- Tiempo de generación: 09-09-2015 a las 07:16:26
 -- Versión del servidor: 5.6.17
 -- Versión de PHP: 5.5.12
 
@@ -53,14 +53,21 @@ INSERT INTO `cliente` (`id`, `nombre`, `apellido`, `razonsocial`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `cliente_compra` (
-  `compra_idventa` int(11) NOT NULL,
-  `productos_idproductos` int(11) NOT NULL,
-  `cantidad` int(11) DEFAULT NULL,
-  `subtotal` decimal(5,2) DEFAULT NULL,
-  PRIMARY KEY (`compra_idventa`,`productos_idproductos`),
-  KEY `fk_compra_has_productos_productos1_idx` (`productos_idproductos`),
-  KEY `fk_compra_has_productos_compra1_idx` (`compra_idventa`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `productos_idproductos` int(10) NOT NULL,
+  `cantidad` int(10) NOT NULL,
+  `subtotal` decimal(10,2) NOT NULL,
+  `cliente_id_cliente` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `cliente_compra`
+--
+
+INSERT INTO `cliente_compra` (`id`, `productos_idproductos`, `cantidad`, `subtotal`, `cliente_id_cliente`) VALUES
+(1, 1, 2, '23.00', 1),
+(2, 2, 2, '22.00', 3);
 
 -- --------------------------------------------------------
 
@@ -91,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `productos` (
   `codigo` varchar(45) DEFAULT NULL,
   `descripcion` text,
   PRIMARY KEY (`idproductos`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Volcado de datos para la tabla `productos`
@@ -108,13 +115,6 @@ INSERT INTO `productos` (`idproductos`, `nombreproducto`, `precio`, `existencia`
 --
 -- Restricciones para tablas volcadas
 --
-
---
--- Filtros para la tabla `cliente_compra`
---
-ALTER TABLE `cliente_compra`
-  ADD CONSTRAINT `fk_compra_has_productos_compra1` FOREIGN KEY (`compra_idventa`) REFERENCES `compra` (`idventa`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_compra_has_productos_productos1` FOREIGN KEY (`productos_idproductos`) REFERENCES `productos` (`idproductos`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Filtros para la tabla `compra`
