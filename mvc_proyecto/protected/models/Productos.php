@@ -13,8 +13,11 @@
  * The followings are the available model relations:
  * @property Cliente[] $clientes
  */
+
 	class Productos extends CActiveRecord
 	{
+	 private static $_items=array();
+ 
 		/*private $connection;
 
 		public function __construct()
@@ -114,6 +117,33 @@
 				'criteria'=>$criteria,
 			));
 		}
+		public static function items($tipo)
+{
+ // Devuelve todos los ítems que forman el arreglo
+ if(!isset(self::$_items[$tipo]))
+  self::loadItems($tipo);
+ return self::$_items[$tipo];
+}
+
+public static function item($tipo, $id)
+{
+ // Devuelve el ítem al que le corresponde el id
+ if(!isset(self::$_items[$tipo]))
+  self::loadItems($tipo);
+ return isset(self::$_items[$tipo][$id]) ? self::$_items[$tipo][$id] : false;
+}
+
+private static function loadItems($tipo)
+{
+ // Obtiene los registros
+ self::$_items[$tipo]=array();
+ $models=self::model()->findAll(array(
+  'order'=>'nombreproducto',
+ ));
+ self::$_items[$tipo][""]="Seleccione un producto";
+ foreach($models as $model)
+  self::$_items[$tipo][$model->idproductos]=$model->nombreproducto;
+}
 
 	}
  ?>

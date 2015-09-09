@@ -14,6 +14,7 @@
  */
 class Clientes extends CActiveRecord
 {
+	private static $_items=array();
 	/**
 	 * @return string the associated database table name
 	 */
@@ -101,4 +102,31 @@ class Clientes extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	public static function items($tipo)
+{
+ // Devuelve todos los ítems que forman el arreglo
+ if(!isset(self::$_items[$tipo]))
+  self::loadItems($tipo);
+ return self::$_items[$tipo];
+}
+
+public static function item($tipo, $id)
+{
+ // Devuelve el ítem al que le corresponde el id
+ if(!isset(self::$_items[$tipo]))
+  self::loadItems($tipo);
+ return isset(self::$_items[$tipo][$id]) ? self::$_items[$tipo][$id] : false;
+}
+
+private static function loadItems($tipo)
+{
+ // Obtiene los registros
+ self::$_items[$tipo]=array();
+ $models=self::model()->findAll(array(
+  'order'=>'nombre',
+ ));
+ self::$_items[$tipo][""]="Seleccione un cliente"; 
+ foreach($models as $model)
+  self::$_items[$tipo][$model->id]=$model->nombre;
+}
 }
