@@ -8,7 +8,7 @@
  * @property integer $productos_idproductos
  * @property integer $cantidad
  * @property string $subtotal
- * @property integer $cliente_id_cliente
+ * @property integer $cliente_idcliente
  */
 class ClienteCompra extends CActiveRecord
 {
@@ -28,12 +28,12 @@ class ClienteCompra extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'required'),
-			array('productos_idproductos, cantidad, cliente_id_cliente', 'numerical', 'integerOnly'=>true),
+			array('productos_idproductos, cantidad, subtotal, cliente_idcliente', 'required'),
+			array('productos_idproductos, cantidad, cliente_idcliente', 'numerical', 'integerOnly'=>true),
 			array('subtotal', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'safe', 'on'=>'search'),
+			array('id, productos_idproductos, cantidad, subtotal, cliente_idcliente', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,11 +54,11 @@ class ClienteCompra extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'Identificador',
-			'productos_idproductos' => 'Clave del producto',
+			'id' => 'ID',
+			'productos_idproductos' => 'Productos',
 			'cantidad' => 'Cantidad',
 			'subtotal' => 'Subtotal',
-			'cliente_id_cliente' => 'Cliente',
+			'cliente_idcliente' => 'Cliente',
 		);
 	}
 
@@ -84,7 +84,7 @@ class ClienteCompra extends CActiveRecord
 		$criteria->compare('productos_idproductos',$this->productos_idproductos);
 		$criteria->compare('cantidad',$this->cantidad);
 		$criteria->compare('subtotal',$this->subtotal,true);
-		$criteria->compare('cliente_id_cliente',$this->cliente_id_cliente);
+		$criteria->compare('cliente_idcliente',$this->cliente_idcliente);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

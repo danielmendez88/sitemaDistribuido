@@ -15,36 +15,36 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Producto *'); ?>
-		<?php echo $form->dropDownList($model, 'productos_idproductos', Productos::items(1)); ?>
+		<?php echo $form->labelEx($model,'Producto*'); ?>
+		<?php echo $form->dropDownList($model, 'productos_idproductos', Productos::items(1), array('class' => 'form-control')); ?>
 		<?php echo $form->error($model,'productos_idproductos'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cantidad'); ?>
-		<?php echo $form->textField($model,'cantidad'); ?>
+		<?php echo $form->textField($model,'cantidad', array('size'=>50,'maxlength'=>50, 'class' => 'form-control')); ?>
 		<?php echo $form->error($model,'cantidad'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'subtotal'); ?>
-		<?php echo $form->textField($model,'subtotal',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->textField($model,'subtotal', array('size'=>50,'maxlength'=>50, 'class' => 'form-control')); ?>
 		<?php echo $form->error($model,'subtotal'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Cliente *'); ?>
-		<?php echo $form->dropDownList($model, 'id', Clientes::items(1)); ?>
-		<?php echo $form->error($model,'id'); ?>
+		<?php echo $form->labelEx($model,'Cliente*'); ?>
+		<?php echo $form->dropDownList($model, 'cliente_idcliente', Clientes::items(1), array('class' => 'form-control')); ?>
+		<?php echo $form->error($model,'cliente_idcliente'); ?>
 	</div>
-
+<br>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Comprar' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Comprar' : 'Save', array("class" => "btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

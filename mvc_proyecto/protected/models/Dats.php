@@ -124,11 +124,11 @@ private static function loadItems($tipo)
  // Obtiene los registros
  self::$_items[$tipo]=array();
  $models=self::model()->findAll(array(
-  'order'=>'razonsocial',
+  'order'=>'id',
  ));
  self::$_items[$tipo][""]="Seleccione un cliente";
  foreach($models as $model)
-  self::$_items[$tipo][$model->id]=$model->razonsocial;
+  self::$_items[$tipo][$model->id]=$model->id;
 }
 
 	}
