@@ -2,6 +2,9 @@
 /* @var $this ClientesController */
 /* @var $model Clientes */
 /* @var $form CActiveForm */
+// CActiveForm y ClientesController generan este formulario donde se cargan los campos de datos 
+// y se puede generar la busqueda completamente ya que este viene heredado de un metodo que se encuentra en un widget propio 
+// del framework
 ?>
 
 <div class="wide form">

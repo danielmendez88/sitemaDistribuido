@@ -1,5 +1,7 @@
 <?php
 /* @var $this SiteController */
+//indice de la pagina principal que se genera cuando se crea una webapp en Yii
+//no la utilizamos por que en el menú generamos una indexación hacia otro archivo index.php
 
 $this->pageTitle=Yii::app()->name;
 ?>

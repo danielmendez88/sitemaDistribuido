@@ -24,35 +24,34 @@ class Clientes extends CActiveRecord
 	}
 
 	/**
-	 * @return array validation rules for model attributes.
+	 * @return reglas de validación con los atributos del modelo
 	 */
 	public function rules()
 	{
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
+		// NOTE: debes definir solo reglas de aquellos atributos que recibiran los elementos de entrada
 		return array(
 			array('nombre', 'required'),
 			array('nombre, apellido, razonsocial', 'length', 'max'=>50),
-			// The following rule is used by search().
+			// la siguiente regla es usada solamente para busqueda
 			// @todo Please remove those attributes that should not be searched.
 			array('id, nombre, apellido, razonsocial', 'safe', 'on'=>'search'),
 		);
 	}
 
 	/**
-	 * @return array relational rules.
+	 * @return array reglas de relación
 	 */
 	public function relations()
 	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
+		// NOTE: puede que tenga que ajustar el nombre de la relación y la relacionada
+		// nombre de la clase de las relaciones generadas automáticamente a continuación.
 		return array(
 			'ventases' => array(self::HAS_MANY, 'Ventas', 'cliente_id'),
 		);
 	}
 
 	/**
-	 * @return array customized attribute labels (name=>label)
+	 * @return array etiquetas de atributos personalizados (nombre = > etiqueta)
 	 */
 	public function attributeLabels()
 	{
@@ -65,21 +64,21 @@ class Clientes extends CActiveRecord
 	}
 
 	/**
-	 * Retrieves a list of models based on the current search/filter conditions.
+	 * Recupera una lista de los modelos basados ​​en las actuales condiciones de búsqueda / filtro.
 	 *
-	 * Typical usecase:
-	 * - Initialize the model fields with values from filter form.
-	 * - Execute this method to get CActiveDataProvider instance which will filter
-	 * models according to data in model fields.
-	 * - Pass data provider to CGridView, CListView or any similar widget.
+	 * Usecase Típico:
+	 * - Inicialice los campos del modelo con los valores de la forma del filtro.
+	 * - Ejecutar este método para obtener ejemplo CActiveDataProvider que filtrará
+	 * Los modelos de acuerdo a los datos en los campos del modelo .
+	 * - Proveedor de datos Pass a CGridView , CListView o cualquier tipo de artilugio similar.
 	 *
-	 * @return CActiveDataProvider the data provider that can return the models
-	 * based on the search/filter conditions.
+	 * @return CActiveDataProvider el proveedor de datos que puede devolver los modelos
+	 * basado en condiciones busqueda/filtrado
 	 */
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
-
+		// @todo datos de entrada en el metodo de busqueda que se envian directamente el metodo criteria que a su vez 
+		// va directo al widget dataprovider para indexarlo a busqueda
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
@@ -93,8 +92,8 @@ class Clientes extends CActiveRecord
 	}
 
 	/**
-	 * Returns the static model of the specified AR class.
-	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 * Devuelve el modelo estático de la clase AR especificado.
+     * Tenga en cuenta que usted debe tener este método exacto en todos sus descendientes CActiveRecord !
 	 * @param string $className active record class name.
 	 * @return Clientes the static model class
 	 */
@@ -104,20 +103,23 @@ class Clientes extends CActiveRecord
 	}
 	public static function items($tipo)
 {
- // Devuelve todos los �tems que forman el arreglo
+ // Devuelve todos los ítems que forman el arreglo
  if(!isset(self::$_items[$tipo]))
   self::loadItems($tipo);
  return self::$_items[$tipo];
 }
 
+//metodo que nos devuelve el item que corresponde a un producto con su id y tipo se ejecuta en tiempo de busqueda 
+//sin usar el widget del framework criteria
 public static function item($tipo, $id)
 {
- // Devuelve el �tem al que le corresponde el id
+ // Devuelve el ítem al que le corresponde el id
  if(!isset(self::$_items[$tipo]))
   self::loadItems($tipo);
  return isset(self::$_items[$tipo][$id]) ? self::$_items[$tipo][$id] : false;
 }
 
+//cargamos un objeto y sus atributos con su tipo
 private static function loadItems($tipo)
 {
  // Obtiene los registros

@@ -1,6 +1,8 @@
 <?php
 /* @var $this ProductosController */
 /* @var $dataProvider CActiveDataProvider */
+// breadcrumb sirve para mostrar al usuario en donde se encuentra en la aplicación y la navegación a través de este se le haga menos tedeosa
+// tradandose de una aplicación netamente comercial
 $this->pageTitle=Yii::app()->name . ' - Productos';
 $this->breadcrumbs=array(
 	'Productos',

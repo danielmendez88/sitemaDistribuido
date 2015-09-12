@@ -1,6 +1,8 @@
 <?php
 /* @var $this ClienteCompraController */
 /* @var $data ClienteCompra */
+//enviar generamos un listado desde la tabla de ClienteCompra el cual hace interacción con el controlador y se ejecuta por el numero de veces
+// que registros haya en la tabla
 ?>
 
 <div class="view">

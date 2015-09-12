@@ -1,6 +1,9 @@
 <?php
 /* @var $this ClientesController */
 /* @var $dataProvider CActiveDataProvider */
+//indice principal de la vista y del controlador usuarios
+//aqui están alojados también los widgets y solo reenvia a 
+// la vista _item que a su vez se indexa con esta vista.
 
 $this->breadcrumbs=array(
 	'Clientes',

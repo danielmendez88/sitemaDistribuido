@@ -1,6 +1,8 @@
 <?php
 /* @var $this ClientesController */
 /* @var $data Clientes */
+//enviar generamos un listado desde la tabla de clientes el cual hace interacción con el controlador y se ejecuta por el numero de veces
+// que registros haya en la tabla
 ?>
 <div class="list-group">
   <a href="#" class="list-group-item ">

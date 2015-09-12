@@ -8,7 +8,7 @@ class SiteController extends Controller
 	public function actions()
 	{
 		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
+			// acción código de imagen hace que la imagen CAPTCHA que aparece en la página de contacto
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
 				'backColor'=>0xFFFFFF,
@@ -22,8 +22,8 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * This is the default 'index' action that is invoked
-	 * when an action is not explicitly requested by users.
+	 * Esta es la acción por omisión "índice" que se invoca
+	 * Cuando una acción no se solicita explícitamente por los usuarios
 	 */
 	public function actionIndex()
 	{
@@ -34,7 +34,7 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * This is the action to handle external exceptions.
+	 * esta acción maneja excepciones externas
 	 */
 	public function actionError()
 	{
@@ -48,7 +48,7 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * Displays the contact page
+	 *muestra la pagina de contacto
 	 */
 	public function actionContact()
 	{
@@ -74,21 +74,21 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * Displays the login page
+	 * muestra la pagina de login
 	 */
 	public function actionLogin()
 	{
 		//cambiando las apariencias del layout
 		$model=new LoginForm;
 
-		// if it is ajax validation request
+		// validación de ajax por petición
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 
-		// collect user input data
+		// recopilar datos de entrada del usuario
 		if(isset($_POST['LoginForm']))
 		{
 			$model->attributes=$_POST['LoginForm'];
@@ -96,12 +96,12 @@ class SiteController extends Controller
 			if($model->validate() && $model->login())
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
-		// display the login form
+		// muestra el formulario de logeo
 		$this->render('login',array('model'=>$model));
 	}
 
 	/**
-	 * Logs out the current user and redirect to homepage.
+	 * Cierra la sesión del usuario actual y redirigir a la página principal .
 	 */
 	public function actionLogout()
 	{

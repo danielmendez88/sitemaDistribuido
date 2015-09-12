@@ -1,7 +1,8 @@
 <?php
 /* @var $this ClientesController */
 /* @var $model Clientes */
-
+//muestra los detalles de los widgets que se envian al controlador de clientes y ahí puede interactuar con los datos de la tabla clientes
+// tambien se carga el indexado del formulario _form
 $this->breadcrumbs=array(
 	'Clientes'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),

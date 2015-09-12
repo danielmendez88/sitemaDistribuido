@@ -1,7 +1,8 @@
 <?php
 /* @var $this ProductosController */
 /* @var $model Productos */
-
+//vista principal a la que envia el actionView del controlador de ProductosController el cual envía el parametro para cargarlo 
+//el widget y así con la variable $model poder acceder a los datos en forma de una tabla Productos
 $this->breadcrumbs=array(
 	'Producto'=>array('index'),
 	$model->idproductos,

@@ -1,7 +1,8 @@
 <?php
 /* @var $this ClientesController */
 /* @var $model Clientes */
-
+//vista principal a la que envia el actionView del controlador de clientes el cual envía el parametro para cargarlo 
+//el widget y así con la variable $model poder acceder a los datos en forma de una tabla
 $this->breadcrumbs=array(
 	'Clientes'=>array('index'),
 	$model->id,

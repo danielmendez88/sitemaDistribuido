@@ -3,7 +3,7 @@
 /**
  * This is the model class for table "cliente_compra".
  *
- * The followings are the available columns in table 'cliente_compra':
+ * las siguientes columnas se encuentran disponibles 'cliente_compra':
  * @property integer $id
  * @property integer $productos_idproductos
  * @property integer $cantidad
@@ -13,7 +13,7 @@
 class ClienteCompra extends CActiveRecord
 {
 	/**
-	 * @return string the associated database table name
+	 * @return la cadena esta asociada a la base de datos
 	 */
 	public function tableName()
 	{
@@ -21,29 +21,27 @@ class ClienteCompra extends CActiveRecord
 	}
 
 	/**
-	 * @return array validation rules for model attributes.
+	 * @return un arreglo donde se validan los atributos que cuenta el modelo
 	 */
 	public function rules()
 	{
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
+		// NOTE: debes definir solo reglas de aquellos atributos que recibiran los elementos de entrada
 		return array(
 			array('productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'required'),
 			array('productos_idproductos, cantidad, cliente_id_cliente', 'numerical', 'integerOnly'=>true),
 			array('subtotal', 'length', 'max'=>10),
-			// The following rule is used by search().
+			// la siguiente regla es usada para la busqueda
 			// @todo Please remove those attributes that should not be searched.
 			array('id, productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'safe', 'on'=>'search'),
 		);
 	}
 
 	/**
-	 * @return array relational rules.
+	 * @return arreglo de reglas relacional
 	 */
 	public function relations()
 	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
+		// NOTE: puedes necesitar ajustar el nombre de la relación y la clase para que la relación se genere
 		return array(
 		);
 	}
@@ -63,20 +61,20 @@ class ClienteCompra extends CActiveRecord
 	}
 
 	/**
-	 * Retrieves a list of models based on the current search/filter conditions.
-	 *
-	 * Typical usecase:
-	 * - Initialize the model fields with values from filter form.
-	 * - Execute this method to get CActiveDataProvider instance which will filter
-	 * models according to data in model fields.
-	 * - Pass data provider to CGridView, CListView or any similar widget.
-	 *
-	 * @return CActiveDataProvider the data provider that can return the models
-	 * based on the search/filter conditions.
-	 */
+	* Recupera una lista de los modelos basados ​​en las actuales condiciones de búsqueda / filtro.
+	*
+	* Usecase Típico:
+	* - Inicialice los campos del modelo con los valores de la forma del filtro.
+	* - Ejecutar este método para obtener ejemplo CActiveDataProvider que filtrará
+	* Los modelos de acuerdo a los datos en los campos del modelo .
+	* - Proveedor de datos Pass a CGridView , CListView o cualquier tipo de artilugio similar.
+	* @return CActiveDataProvider the data provider that can return the models
+	* basado en las condiciones de busqueda/filtrado
+	*/
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
+		// @todo son atributos que se envian como parametros de la busqueda en CActiveDataProvider. pueden quitarse aquellos parametros
+		// que no usaremos en la busqueda
 
 		$criteria=new CDbCriteria;
 
@@ -92,8 +90,8 @@ class ClienteCompra extends CActiveRecord
 	}
 
 	/**
-	 * Returns the static model of the specified AR class.
-	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 * Devuelve el modelo estático de la clase AR especificado.
+	 * Tenga en cuenta que usted debe tener este método exacto en todos sus descendientes CActiveRecord !
 	 * @param string $className active record class name.
 	 * @return ClienteCompra the static model class
 	 */

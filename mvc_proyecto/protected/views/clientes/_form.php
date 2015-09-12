@@ -8,10 +8,12 @@
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'clientes-form',
-	// Please note: When you enable ajax validation, make sure the corresponding
-	// controller action is handling ajax validation correctly.
-	// There is a call to performAjaxValidation() commented in generated controller code.
-	// See class documentation of CActiveForm for details on this.
+	// Nota: Cuando se habilita la validación ajax , asegúrese de que el correspondiente
+	// Acción del controlador se encarga de la validación ajax correctamente.
+	// No es una llamada a performAjaxValidation ( ) comentó en el código del controlador generado.
+	// Ver documentación de la clase de CActiveForm para más detalles sobre esto.
+	// a partir de la clase CActiveForm se puede contruir un formulario personalizado obteniendo de esta clase solo los parametos 
+	// que han sido pasados a traves de la clase CAcviteRecord dada el controlador al cual se direccione
 	'enableAjaxValidation'=>false,
 )); ?>
 

@@ -10,7 +10,7 @@
  * @property string $codigo
  * @property string $descripcion
  *
- * The followings are the available model relations:
+ * Las siguientes son las relaciones modelo disponibles :
  * @property Cliente[] $clientes
  */
 
@@ -53,12 +53,11 @@
 		}*/
 	
 	/**
-	 * @return array validation rules for model attributes.
+	 * @return array de reglas de validación de atributos
 	 */
 	public function rules()
 	{
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
+		// NOTE: sólo se debe definir reglas para esos atributos que recibirá las entradas del usuario
 		return array(
 			array('nombreproducto, existencia', 'required'),
 			array('existencia', 'numerical', 'integerOnly'=>true),
@@ -66,14 +65,13 @@
 			array('precio', 'length', 'max'=>5),
 			array('codigo', 'length', 'max'=>45),
 			array('descripcion', 'safe'),
-			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
+			// la siguiente regla es usada para la busqueda
 			array('idproductos, nombreproducto, precio, existencia, codigo, descripcion', 'safe', 'on'=>'search'),
 		);
 	}
 
 		/**
-		 * @return array customized attribute labels (name=>label)
+		 * @return array etiquetas de atributos personalizados (nombre = > etiqueta)
 		 */
 		public function attributeLabels()
 		{
@@ -89,20 +87,20 @@
 
 
 		/**
-		 * Retrieves a list of models based on the current search/filter conditions.
+		 * Recupera una lista de los modelos basados ​​en las actuales condiciones de búsqueda / filtro.
 		 *
-		 * Typical usecase:
-		 * - Initialize the model fields with values from filter form.
-		 * - Execute this method to get CActiveDataProvider instance which will filter
-		 * models according to data in model fields.
-		 * - Pass data provider to CGridView, CListView or any similar widget.
+		 * Usecase Típico:
+		 * - Inicialice los campos del modelo con los valores de la forma del filtro.
+		 * - Ejecutar este método para obtener ejemplo CActiveDataProvider que filtrará
+		 * Los modelos de acuerdo a los datos en los campos del modelo .
+		 * - Proveedor de datos Pass a CGridView , CListView o cualquier tipo de artilugio similar.
 		 *
-		 * @return CActiveDataProvider the data provider that can return the models
-		 * based on the search/filter conditions.
+		 * @return CActiveDataProvider el proveedor de datos que se pueden devolver los modelos
+		 * basado en las condiciones de búsqueda / filtro.
 		 */
 		public function search()
 		{
-			// @todo Please modify the following code to remove attributes that should not be searched.
+			// @todo Modifique el código siguiente para quitar atributos que no debe ser buscado .
 
 			$criteria=new CDbCriteria;
 

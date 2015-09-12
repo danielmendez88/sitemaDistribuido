@@ -1,3 +1,5 @@
+<!--Principal formulario donde se cargan los datos de navegacion y también los temas y demas widgets ya sea bootstrap o javascript
+hasta se carga contenido html nativo de la vista-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -152,6 +154,8 @@
                 </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <!--menu de navegación que es el modelo para llamar al menu principal de la aplicación aqui se encuentra las rutas 
+            hacia las diferentes vistas usando el widget CMenu-->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
 
                 <?php $this->widget('zii.widgets.CMenu',array(
@@ -175,6 +179,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                    <!--widget CBreadcrumbs es el que carga los datos de busqueda
+                    eso que carga para mostrar al usuario en que parte del sitio se encuentra-->
                             <?php if(isset($this->breadcrumbs)):?>
                                 <?php $this->widget('zii.widgets.CBreadcrumbs', array(
                                     'htmlOptions'=>array('class'=>'breadcrumb'),
@@ -183,7 +189,8 @@
                             <?php endif?>
                     </div>
                 </div>
-
+                <!--aqui se carga el contenido de las vistas para mostarlas con los datos de los formularios y demás por parte de
+                los controladores de la webapp ya que así genera la estructura del framework Yii-->
                 <?php echo $content; ?>
             </div>
             <!-- /.container-fluid -->

@@ -11,45 +11,45 @@
 		public $layout='//layouts/column2';
 
 		/**
-		 * @return array action filters
+		 * @return filtros de acción de arreglos
 		 */
 		public function filters()
 		{
 			return array(
-				'accessControl', // perform access control for CRUD operations
-				//'postOnly + delete', // we only allow deletion via POST request
+				'accessControl', // realizar el control de acceso para las operaciones CRUD
+				//'postOnly + delete', // sólo permitimos eliminación mediante petición POST
 			);
 		}
 
 		/**
-		 * Specifies the access control rules.
-		 * This method is used by the 'accessControl' filter.
-		 * @return array access control rules
+		 * Especifica las reglas de control de acceso .
+		 * Este método es utilizado por el filtro ' AccessControl ' . 
+		 * @return Reglas de control de acceso a una matriz
 		 */
 		public function accessRules()
 		{
 			return array(
-				array('allow',  // allow all users to perform 'index' and 'view' actions
+				array('allow',  // permiten a todos los usuarios llevar a cabo "índice " y acciones "Ver"
 					'actions'=>array('index','view'),
 					'users'=>array('*'),
 				),
-				array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				array('allow', // permite al usuario autenticado a realizar ' crear ' y las acciones de la "actualización"
 					'actions'=>array('add','update'),
 					'users'=>array('@'),
 				),
-				array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				array('allow', // permite al usuario administrador para realizar 'admin' y acciones 'Eliminar'
 					'actions'=>array('admin','delete'),
 					'users'=>array('admin'),
 				),
-				array('deny',  // deny all users
+				array('deny',  // denegamos todos los usuarios
 					'users'=>array('*'),
 				),
 			);
 		}
 
 		/**
-		 * Displays a particular model.
-		 * @param integer $id the ID of the model to be displayed
+		 * muestra un modelo en particular
+		 * @param entero $ id del ID del modelo que se muestra
 		 */
 		public function actionView($id)
 		{
@@ -59,14 +59,14 @@
 		}
 
 		/**
-		 * Creates a new model.
-		 * If creation is successful, the browser will be redirected to the 'view' page.
+		 * Crea un nuevo modelo.
+		 * Si la creación se realiza correctamente, el navegador será redirigido a la página de "vista" .
 		 */
 		public function actionAdd()
 		{
 			$model=new Productos;
 
-			// Uncomment the following line if AJAX validation is needed
+			// se descomenta la siguiente linea si es requerida la validación en AJAX
 			// $this->performAjaxValidation($model);
 
 			if(isset($_POST['Productos']))
@@ -81,16 +81,17 @@
 			));
 		}
 
+
 		/**
-		 * Updates a particular model.
-		 * If update is successful, the browser will be redirected to the 'view' page.
-		 * @param integer $id the ID of the model to be updated
+		 * actualizar un modelo en particular
+		 * Si la actualización se realiza correctamente, el navegador será redirigido a la pagina de vista
+		 * @param con el id del modelo al cual redireccionar
 		 */
 		public function actionUpdate($id)
 		{
 			$model=$this->loadModel($id);
 
-			// Uncomment the following line if AJAX validation is needed
+			// se descomenta la siguiente linea si es requerida la validación en AJAX
 			// $this->performAjaxValidation($model);
 
 			if(isset($_POST['Productos']))
@@ -106,21 +107,21 @@
 		}
 
 		/**
-		 * Deletes a particular model.
-		 * If deletion is successful, the browser will be redirected to the 'admin' page.
-		 * @param integer $id the ID of the model to be deleted
+		 * borramos un modelo en particular
+		 * si la eliminación se realiza correctamente, el navegador será redirigido en la pagina 'admin'
+		 * @param integer $id the ID del modelo 
 		 */
 		public function actionDelete($id)
 		{
 			$this->loadModel($id)->delete();
 
-			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+			// si la petición AJAX ( provocado por la eliminación a través de la vista de cuadrícula admin) , no debemos redirigir el navegador
 			if(!isset($_GET['ajax']))
 				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 		}
 
 		/**
-		 * Lists all models.
+		 * lista todos los modelos.
 		 */
 		public function actionIndex()
 		{
@@ -131,12 +132,12 @@
 		}
 
 		/**
-		 * Manages all models.
+		 * administra todos los modelos
 		 */
 		public function actionAdmin()
 		{
 			$model=new Productos('search');
-			$model->unsetAttributes();  // clear any default values
+			$model->unsetAttributes();  // limpiar cualquier variable por defecto
 			if(isset($_GET['Productos']))
 				$model->attributes=$_GET['Productos'];
 
@@ -146,10 +147,10 @@
 		}
 
 		/**
-		 * Returns the data model based on the primary key given in the GET variable.
-		 * If the data model is not found, an HTTP exception will be raised.
-		 * @param integer $id the ID of the model to be loaded
-		 * @return Productos the loaded model
+		 * Devuelve el modelo de datos basado en la clave primaria dada en la variable GET.
+		 * Si no se encuentra el modelo de datos , se produce una excepción HTTP 
+		 * @param integer $id the ID del modelo a cargar
+		 * @return ClienteCompra el modelo a cargar
 		 * @throws CHttpException
 		 */
 		public function loadModel($id)
@@ -161,8 +162,8 @@
 		}
 
 		/**
-		 * Performs the AJAX validation.
-		 * @param Productos $model the model to be validated
+		 * Realiza la validación de AJAX 
+		 * @param Productos $model el modelo a validar
 		 */
 		protected function performAjaxValidation($model)
 		{

@@ -1,3 +1,5 @@
+<!--Principal formulario donde se cargan los datos de navegacion y también los temas y demas widgets ya sea bootstrap o javascript
+hasta se carga contenido html nativo de la vista-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,6 +51,7 @@
                 <a class="navbar-brand" href="index.html">SB Admin</a>
             </div>
             <!-- Top Menu Items -->
+            <!--menu de navegación que es el modelo para llamar al menu principal de la aplicación-->
             <ul class="nav navbar-right top-nav">
             	 <?php $this->widget('zii.widgets.CMenu',array(
 		            'items'=>array(

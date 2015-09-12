@@ -1,7 +1,8 @@
 <?php 
 /* @var $this ProductosController */
 /* @var $data Productos */
-
+//vista principal de los productos aqui se agrega por un grupo y el widget se encarga de hacer automaticamente la interacción de los
+// datos que esten guardados en la tabla producto e imprimiendolos el numero de filas que tenga la tabla a consultar
  ?>
 <div class="list-group">
   <a href="#" class="list-group-item ">

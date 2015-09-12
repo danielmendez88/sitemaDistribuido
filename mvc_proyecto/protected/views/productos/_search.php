@@ -2,6 +2,9 @@
 /* @var $this ProductosController */
 /* @var $model Productos */
 /* @var $form CActiveForm */
+//formulario de busqueda que envia y obtiene los parametros directamente del controlador ProductosController
+// este formulario nos da los parametros en sus inputs los cuales son indexados por su metodo el cual está especificado 
+// en el widget beginWidget pasando un parametro de la clase CActiveForm
 ?>
 
 <div class="wide form">

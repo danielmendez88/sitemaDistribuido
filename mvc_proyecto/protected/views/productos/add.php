@@ -1,7 +1,8 @@
 <?php
 /* @var $this ProductosController */
 /* @var $model Productos */
-
+//formulario de agregar productos el cual cuanta con un renderPartial que enviar al formulario _form y también con un pase de parametros 
+// en la variable $model
 $this->breadcrumbs=array(
 	'Procutos'=>array('index'),
 	'Agregar Nuevo',

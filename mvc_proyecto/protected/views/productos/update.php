@@ -1,7 +1,8 @@
 <?php
 /* @var $this ProductosController */
 /* @var $model Productos */
-
+//muestra los detalles de los widgets que se envian al controlador de clientes y ahí puede interactuar con los datos de la tabla productos
+// tambien se carga el indexado del formulario _form
 $this->breadcrumbs=array(
 	'Productoses'=>array('index'),
 	$model->idproductos=>array('view','id'=>$model->idproductos),

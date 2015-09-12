@@ -6,6 +6,7 @@ class ClienteCompraController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
+	//este layout es para cambiar la vista
 	public $layout='//layouts/column2';
 
 	/**
@@ -14,15 +15,16 @@ class ClienteCompraController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
-			'postOnly + delete', // we only allow deletion via POST request
+			'accessControl', // realizar el control de acceso para las operaciones CRUD
+			'postOnly + delete', // sólo permitimos eliminación mediante petición POST
 		);
 	}
 
 	/**
-	 * Specifies the access control rules.
-	 * This method is used by the 'accessControl' filter.
-	 * @return array access control rules
+	 * Especifica las reglas de control de acceso .
+	 * Este método es utilizado por el filtro ' AccessControl ' .
+	 * Reglas de control de acceso a una matriz 
+	 *	@return
 	 */
 	public function accessRules()
 	{
@@ -46,8 +48,8 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Displays a particular model.
-	 * @param integer $id the ID of the model to be displayed
+	 * muestra un modelo en particular
+	 * @param entero $ id del ID del modelo que se muestra
 	 */
 	public function actionView($id)
 	{
@@ -57,14 +59,14 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Creates a new model.
-	 * If creation is successful, the browser will be redirected to the 'view' page.
+	 * Crea un nuevo modelo.
+	 * Si la creación se realiza correctamente, el navegador será redirigido a la página de "vista" .
 	 */
 	public function actionCreate()
 	{
 		$model=new ClienteCompra;
 
-		// Uncomment the following line if AJAX validation is needed
+		// se descomenta la siguiente linea si es requerida la validación en AJAX
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['ClienteCompra']))
@@ -80,15 +82,15 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Updates a particular model.
-	 * If update is successful, the browser will be redirected to the 'view' page.
-	 * @param integer $id the ID of the model to be updated
+	 * actualizar un modelo en particular
+	 * Si la actualización se realiza correctamente, el navegador será redirigido a la pagina de vista
+	 * @param con el id del modelo al cual redireccionar
 	 */
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
 
-		// Uncomment the following line if AJAX validation is needed
+		// se descomenta la siguiente linea si es requerida la validación en AJAX
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['ClienteCompra']))
@@ -104,21 +106,21 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Deletes a particular model.
-	 * If deletion is successful, the browser will be redirected to the 'admin' page.
-	 * @param integer $id the ID of the model to be deleted
+	 * borramos un modelo en particular
+	 * si la eliminación se realiza correctamente, el navegador será redirigido en la pagina 'admin'
+	 * @param integer $id the ID del modelo 
 	 */
 	public function actionDelete($id)
 	{
 		$this->loadModel($id)->delete();
 
-		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+		// si la petición AJAX ( provocado por la eliminación a través de la vista de cuadrícula admin) , no debemos redirigir el navegador
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
 
 	/**
-	 * Lists all models.
+	 * Lista de modelos
 	 */
 	public function actionIndex()
 	{
@@ -129,12 +131,12 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Manages all models.
+	 * Administrador del modelo
 	 */
 	public function actionAdmin()
 	{
 		$model=new ClienteCompra('search');
-		$model->unsetAttributes();  // clear any default values
+		$model->unsetAttributes();  // borrar los valores por defecto
 		if(isset($_GET['ClienteCompra']))
 			$model->attributes=$_GET['ClienteCompra'];
 
@@ -144,10 +146,10 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Returns the data model based on the primary key given in the GET variable.
-	 * If the data model is not found, an HTTP exception will be raised.
-	 * @param integer $id the ID of the model to be loaded
-	 * @return ClienteCompra the loaded model
+	 * Devuelve el modelo de datos basado en la clave primaria dada en la variable GET.
+	 * Si no se encuentra el modelo de datos , se produce una excepción HTTP 
+	 * @param integer $id the ID del modelo a cargar
+	 * @return ClienteCompra el modelo a cargar
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
@@ -159,8 +161,8 @@ class ClienteCompraController extends Controller
 	}
 
 	/**
-	 * Performs the AJAX validation.
-	 * @param ClienteCompra $model the model to be validated
+	 * Realiza la validación de AJAX 
+	 * @param ClienteCompra $model el modelo a validar
 	 */
 	protected function performAjaxValidation($model)
 	{
