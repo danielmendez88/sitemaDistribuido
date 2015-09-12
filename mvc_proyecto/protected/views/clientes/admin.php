@@ -7,7 +7,7 @@
 */
 $this->breadcrumbs=array(
 	'Clientes'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(

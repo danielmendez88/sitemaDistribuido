@@ -25,6 +25,6 @@ $this->menu=array(
 		'productos_idproductos',
 		'cantidad',
 		'subtotal',
-		'cliente_id_cliente',
+		'cliente_idcliente',
 	),
 )); ?>

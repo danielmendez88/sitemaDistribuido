@@ -8,7 +8,7 @@
  * @property integer $productos_idproductos
  * @property integer $cantidad
  * @property string $subtotal
- * @property integer $cliente_id_cliente
+ * @property integer $cliente_idcliente
  */
 class ClienteCompra extends CActiveRecord
 {
@@ -27,12 +27,12 @@ class ClienteCompra extends CActiveRecord
 	{
 		// NOTE: debes definir solo reglas de aquellos atributos que recibiran los elementos de entrada
 		return array(
-			array('productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'required'),
-			array('productos_idproductos, cantidad, cliente_id_cliente', 'numerical', 'integerOnly'=>true),
+			array('productos_idproductos, cantidad, subtotal, cliente_idcliente', 'required'),
+			array('productos_idproductos, cantidad, cliente_idcliente', 'numerical', 'integerOnly'=>true),
 			array('subtotal', 'length', 'max'=>10),
 			// la siguiente regla es usada para la busqueda
 			// @todo Please remove those attributes that should not be searched.
-			array('id, productos_idproductos, cantidad, subtotal, cliente_id_cliente', 'safe', 'on'=>'search'),
+			array('id, productos_idproductos, cantidad, subtotal, cliente_idcliente', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,11 +52,11 @@ class ClienteCompra extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'Identificador',
-			'productos_idproductos' => 'Clave del producto',
+			'id' => 'ID',
+			'productos_idproductos' => 'Clave de Productos',
 			'cantidad' => 'Cantidad',
 			'subtotal' => 'Subtotal',
-			'cliente_id_cliente' => 'Cliente',
+			'cliente_idcliente' => 'Clave de Cliente',
 		);
 	}
 
@@ -82,13 +82,27 @@ class ClienteCompra extends CActiveRecord
 		$criteria->compare('productos_idproductos',$this->productos_idproductos);
 		$criteria->compare('cantidad',$this->cantidad);
 		$criteria->compare('subtotal',$this->subtotal,true);
-		$criteria->compare('cliente_id_cliente',$this->cliente_id_cliente);
+		$criteria->compare('cliente_idcliente',$this->cliente_idcliente);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+	public function searchadvanced()
+	{
+		// @todo Please modify the following code to remove attributes that should not be searched.
 
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('productos_idproductos',$this->productos_idproductos);
+		$criteria->compare('cantidad',$this->cantidad);
+		$criteria->compare('subtotal',$this->subtotal,true);
+		$criteria->compare('cliente_idcliente',$this->cliente_idcliente);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
 	/**
 	 * Devuelve el modelo estático de la clase AR especificado.
 	 * Tenga en cuenta que usted debe tener este método exacto en todos sus descendientes CActiveRecord !

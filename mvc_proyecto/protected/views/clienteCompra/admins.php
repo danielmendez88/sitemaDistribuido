@@ -7,10 +7,6 @@ $this->breadcrumbs=array(
 	'Administrar',
 );
 
-$this->menu=array(
-	array('label'=>'Total de Compras', 'url'=>array('index')),
-	array('label'=>'Realizar Compra', 'url'=>array('create')),
-);
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();
@@ -25,11 +21,11 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar Compras</h1>
+<h1>Compras por cliente</h1>
 
-<?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
+
+<div class="search-form" style="display:active">
+<?php $this->renderPartial('_searchadvanced',array(
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
@@ -38,16 +34,20 @@ $('.search-form form').submit(function(){
 	'id'=>'cliente-compra-grid',
 	'itemsCssClass' => 'table table-striped',
 	'pager' => array("htmlOptions" => array("class" => "pager")),
-	'dataProvider'=>$model->search(),
+	'dataProvider'=>$model->searchadvanced(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
 		'productos_idproductos',
 		'cantidad',
 		'subtotal',
 		'cliente_idcliente',
 		array(
-			'class'=>'CButtonColumn',
+			'class'=>'CButtonColumn','buttons'=>array(
+                        'delete' => array(
+                                'none',
+                        ),
+                ),
+   
 		),
 	),
 )); ?>

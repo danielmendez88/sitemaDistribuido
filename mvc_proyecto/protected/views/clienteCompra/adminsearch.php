@@ -27,7 +27,7 @@ $('.search-form form').submit(function(){
 
 <h1>Administrar Compras</h1>
 
-<?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -36,8 +36,6 @@ $('.search-form form').submit(function(){
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'cliente-compra-grid',
-	'itemsCssClass' => 'table table-striped',
-	'pager' => array("htmlOptions" => array("class" => "pager")),
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
