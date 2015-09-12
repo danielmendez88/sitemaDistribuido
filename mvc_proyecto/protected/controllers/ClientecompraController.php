@@ -36,7 +36,7 @@ class ClienteCompraController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('admin','delete','admins'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -130,7 +130,7 @@ class ClienteCompraController extends Controller
 
 	/**
 	 * Manages all models.
-	 */
+	  */
 	public function actionAdmin()
 	{
 		$model=new ClienteCompra('search');
@@ -139,6 +139,17 @@ class ClienteCompraController extends Controller
 			$model->attributes=$_GET['ClienteCompra'];
 
 		$this->render('admin',array(
+			'model'=>$model,
+		));
+	}
+		public function actionAdmins()
+	{
+		$model=new ClienteCompra('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['ClienteCompra']))
+			$model->attributes=$_GET['ClienteCompra'];
+
+		$this->render('admins',array(
 			'model'=>$model,
 		));
 	}

@@ -55,10 +55,10 @@ class ClienteCompra extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'productos_idproductos' => 'Productos',
+			'productos_idproductos' => 'Clave de Productos',
 			'cantidad' => 'Cantidad',
 			'subtotal' => 'Subtotal',
-			'cliente_idcliente' => 'Cliente',
+			'cliente_idcliente' => 'Clave de Cliente',
 		);
 	}
 
@@ -90,7 +90,21 @@ class ClienteCompra extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	public function searchadvanced()
+	{
+		// @todo Please modify the following code to remove attributes that should not be searched.
 
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('productos_idproductos',$this->productos_idproductos);
+		$criteria->compare('cantidad',$this->cantidad);
+		$criteria->compare('subtotal',$this->subtotal,true);
+		$criteria->compare('cliente_idcliente',$this->cliente_idcliente);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
 	/**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!

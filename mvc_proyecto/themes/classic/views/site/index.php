@@ -26,9 +26,9 @@
                             </div>
                             <a href="#">
                                 <div class="panel-footer">
-                                    <span class="pull-left"><?php echo CHtml::link('Ver Detalles', array('/clienteCompra/admin')); ?></span>
-                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                    <div class="clearfix"></div>
+                                    <span class="pull-left"><?php echo CHtml::link('Ver Detalles', array('/clienteCompra/admins')); ?></span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> 
+                                     <div class="clearfix"></div> 
                                 </div>
                             </a>
                         </div>
